@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>AdminLTE 3 | Top Navigation</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- Ion Slider -->
+    <link rel="stylesheet" href="plugins/ion-rangeslider/css/ion.rangeSlider.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container">
+      <a href="index3.html" class="navbar-brand">
+        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+             style="opacity: .8">
+        <span class="brand-text font-weight-light">opelnuoma.lt</span>
+      </a>
+      
+      <!-- <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+      </div>     
+
+      <!-- Right navbar links -->
+      <!-- <ul class="navbar-nav"> -->
+        <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Pagrindinis</a>
+          </li>
+          <li class="nav-item">
+            <a href="admin-reservation.html" class="nav-link">Admin</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Darius</a>
+            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+              <li><a href="my-reservations.html" class="dropdown-item">Mano rezervacijos </a></li>
+              <li><a href="#" class="dropdown-item">Atsijungti</a></li>
+              <li class="dropdown-divider"></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark"> Opel ir Renault mikroautobusų nuoma <br><small>nuoma lengvai ir pigiai</small></h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+            <div class="card-header">
+                <h5 class="card-title m-0">Renault Trafic 2017 m.</h5>
+            </div>
+              <div class="card-body">
+                <!-- <img src="dist/img/hero_1.jpg" width="100%" alt=""> -->
+                <!-- <div class="card-body"> -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="dist/img/hero_1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="dist/img/hero_1.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="dist/img/hero_1.jpg" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                <!-- </div> -->
+                <p class="card-text">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <dl class="row">
+                                <dt class="col-sm-7">Vietų skaičius</dt>
+                                <dd class="col-sm-5">7+1; 8+1;</dd>
+                                <dt class="col-sm-7">Nuomos miestas</dt>
+                                <dd class="col-sm-5">Vilnius;</dd>
+                                <dt class="col-sm-7">Modelis</dt>
+                                <dd class="col-sm-5">Opel Vivaro;</dd>
+                                <dt class="col-sm-7">Pagaminimo metai</dt>
+                                <dd class="col-sm-5">2017 m.; 2016 m.; 2015 m.; 2014 m.; 2013 m.; 2012 m.; 2018 m.;</dd>
+                                <dt class="col-sm-7">Kėbulas</dt>
+                                <dd class="col-sm-5">Pailgintos bazės;</dd>
+                                <dt class="col-sm-7">Kondicionierius</dt>
+                                <dd class="col-sm-5">Yra</dd>
+                                <dt class="col-sm-7">Spalva</dt>
+                                <dd class="col-sm-5">Sidabrinė</dd>
+                                <dt class="col-sm-7">Kuras</dt>
+                                <dd class="col-sm-5">Dyzelinas</dd>
+                                <dt class="col-sm-7">Kuro sąnaudos</dt>
+                                <dd class="col-sm-5">9,8 / 7,0 / 7,9</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </p>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h5 class="card-title m-0">Rezervuoti Renault Trafic 2017 m.</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <div class="form-group">
+                            <label>Paėmimas iš:</label>
+                            <select class="form-control">
+                                <option>--</option>
+                                <option>Vilnius: Miesto ofisas</option>
+                                <option>Pristatymas mieste</option>
+                                <option>Oro uostas (VNO)</option>
+                                <option>Kauno oro uostas (KUN)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Grąžinimas į:</label>
+                            <select class="form-control">
+                                <option>--</option>
+                                <option>Į tą pačią vietą</option>
+                                <option>Vilnius: Miesto ofisas</option>
+                                <option>Pristatymas mieste</option>
+                                <option>Oro uostas (VNO)</option>
+                                <option>Kauno oro uostas (KUN)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Nuomos laikotarpis nuo - iki:</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="far fa-clock"></i></span>
+                              </div>
+                              <input type="text" class="form-control float-right" id="reservationtime">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="distance">Planuojamas kilometražas</label>
+                            <input id="distance" type="text" name="distance" value="0" tabindex="-1" readonly="">
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                              <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                              <label for="customCheckbox1" class="custom-control-label">Su <a href="#" data-toggle="modal" data-target="#modal-xl">nuomos taisyklėmis</a> susipažinau</label>
+                            </div>
+                        </div>
+                        <div id="total"></div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <h4><price id="price">69 </price><small> EUR/diena</small></h4>
+                                </div>
+                                <div class="col-sm-5">
+                                    <button type="submit" class="btn btn-primary float-right">Rezervuoti >>></button>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div><!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h5 class="card-title m-0">Mikroautobuso nuoma be arba su vairuotoju</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Renault Trafic/ Opel Vivaro ypatumai:</h6>
+                <table class="table table-sm">
+                    <tbody>
+                      <tr>
+                        <td>Pagaminimo metai:</td>
+                        <td>2012- 2019</td>
+                      </tr>
+                      <tr>
+                        <td>Pavarų skaičius:</td>
+                        <td>6</td>
+                      </tr>
+                      <tr>
+                        <td>Dyzelinas</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Prailginta bazė</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Tamsinti langai</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Dviejų zonų oro kondicionierius</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Dviejų zonų šildymas ir vėdinimas</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Didelė, talpi bagažinė</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Patogios reguliuojamos sėdynės</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>MP3, USB grotuvas</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Papildoma  12V jungtis</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Vietų skaičius</td>
+                        <td>8+1</td>
+                      </tr>
+                      <tr>
+                        <td>Kuro sąnaudos (mieste, užmiestyje, vidutinės), L/100 km</td>
+                        <td>9,0 / 7,0 / 8,0</td>
+                      </tr>
+                      <tr>
+                        <td>Kuro bako talpa</td>
+                        <td>90 L</td>
+                      </tr>
+                      <tr>
+                        <td>Kuras</td>
+                        <td>dyzelinas</td>
+                      </tr>
+                      <tr>
+                        <td>Greičio palaikymo sistema  (Cruise Control)</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h5 class="card-title m-0">Mikroautobusai puikia tinka:</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        VIP svečiams, kelionėms po Lietuvą ir Europą, vestuvėms, krikštynoms, ekskursijoms, mergvakariams</br>
+                        Mikroautobusų nuoma. Mūsų siūlomi Renault Trafic ir Opel Vivaro yra  prailgintos kėbulo bazės, su talpia bagažine ir įrengtomis  patogiomis, individualiai reguliuojamomis sėdynėmis, todėl galima ilgiau mėgautis kelione.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h5 class="card-title m-0">Nuomos sąlygos</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        REZERVACIJA. Rezervacija vykdoma tik sumokėjus užstatą ir pasirašius sutartį.<br>
+                        VAIRUOJANTIS ASMUO. Nuomojamus  mikroautobusus gali vairuoti ne jaunesnis kaip 21 metų asmenys, turintys vairuotojo pažymėjimą ir ne mažesnę kaip 3 metų vairavimo patirtį.<br>
+                        PAPILDOMAS VAIRUOTOJAS. Nuomojamą automobilį gali vairuoti ne tik mikroautobuso nuomininkas, bet ir kiti asmenys, atitinkantys  nuomos sąlygas ir turintys raštišką nuomininko sutikimą.<br>
+                        DOKUMENTAI. Nuomojant mikroautobusą,  klientas turi pateikti savo pasą ir galiojantį vairuotojo pažymėjimą.<br>
+                        ATSISKAITYMAS. Atsiskaityti galima grynaisiais pinigais arba banko pavedimu.<br>
+                        APTARNAVIMAS. Nuomos laikotarpiu klientas turi galimybę susisiekti su mumis bet kuriuo paros metu (24 valandas per parą).<br>
+                        DRAUDIMAS. Mikroautobusai apdrausti tarptautiniu transporto priemonių draudimu (žalioji korta), privalomuoju civilinės atsakomybės draudimu, automobilio savanorišku draudimu (KASKO).<br>
+                        
+                        Nuomos kaina: 45- 80 EUR už parą (priklausomai nuo parų skaičiaus).<br>
+                        Kaina mikroautobuso nuomai su vairuotoju yra derinama individualiai.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <h5 class="card-title m-0">Kontaktai:</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Telefonas: +370 60868550 <br>
+                        El. paštas: info@opelnuoma.lt<br>
+                    </p>
+                </div>
+            </div>
+
+          </div>
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="modal fade" id="modal-xl" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Pagrindinės važiavimo elektriniais paspirtukais taisyklės</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Vadovaujantis Lietuvos Respublikos saugaus eismo automobilių keliais įstatymu, transporto priemonė, kuri turi ne mažiau kaip du ratus ir vidaus degimo variklį ar elektros variklį, kurių didžiausioji naudingoji galia ne didesnė kaip 1 kW, ir kurios didžiausiasis projektinis greitis ne didesnis kaip 25 km/val., priskiriama motoriniam dviračiui. Tokios transporto priemonės vairuotojas turi laikytis Kelių eismo taisyklių VIII skyriuje nurodytų reikalavimų (Reikalavimai dviračių vairuotojams).
+                  Dviračiu, motoriniu dviračiu, ar šiai kategorijai priskirtinu elektriniu paspirtuku, elektriniais riedžiais ir pan., galima važiuoti dviračių takais, pėsčiųjų ir dviračių takais, arba dviračių juostomis, kur jų nėra – tam tinkamu kelkraščiu. Važiuodamas kelkraščiu, pėsčiųjų ir dviračių taku, šaligatviu, elektrinio paspirtuko vairuotojas privalo duoti kelią pėstiesiems, neturi jiems trukdyti, kelti pavojaus. Atkreipiame dėmesį, kad šių transporto priemonių vairuotojams draudžiama kirsti važiuojamąją dalį pėsčiųjų perėjomis.
+                  Kai kelyje nėra dviračių tako, pėsčiųjų ir dviračių tako arba dešinėje kelio pusėje nėra dviračių juostos, kelkraščio, taip pat tais atvejais, kai jais važiuoti negalima (duobėti ir panašiai), leidžiama važiuoti šaligatviu arba viena eile važiuojamosios dalies kraštine dešine eismo juosta, kuo arčiau jos dešiniojo krašto, išskyrus Kelių eismo taisyklių 106 punkte nurodytus atvejus, taip pat kai reikia apvažiuoti kliūtį, važiuoti tiesiai, kai iš pirmosios eismo juostos leidžiama sukti tik į dešinę.
+                  Važiuodamas važiuojamąja dalimi, vairuotojas privalo dėvėti ryškiaspalvę liemenę su šviesą atspindinčiais elementais arba dviračio priekyje turi degti baltos šviesos žibintas, o gale – raudonos šviesos žibintas. Važiuojant tokia transporto priemone nepilnamečiams (iki 18 metų) privalomas saugos šalmas.
+                  Važiuoti važiuojamąja kelio dalimi dviračiu (elektriniu paspirtuku – greitis iki 25 km/val., galia ne didesnė kaip 1 kW) leidžiama ne jaunesniems kaip 14 metų asmenims, o išklausiusiems Lietuvos Respublikos švietimo ir mokslo ministerijos nustatytą mokymo kursą ir turintiems mokyklos išduotą pažymėjimą, – ne jaunesniems kaip 12 metų asmenims. Prižiūrint suaugusiajam, važiuoti važiuojamąja dalimi dviračiu leidžiama ne jaunesniems kaip 8 metų asmenims. Gyvenamojoje zonoje dviračių vairuotojų amžius neribojamas. Suaugusieji turi užtikrinti, kad nepilnamečiai tinkamai elgtųsi kelyje, patiems rodyti tinkamą (gerą) pavyzdį.
+                  Lietuvos kelių policijos tarnyba primena, kad asmenys, važiuojantys elektriniais paspirtukais, kaip ir visi viešajame eisme dalyvaujantieji, privalo vykdyti Kelių eismo taisyklių reikalavimus, būti atidūs, saugoti save, gerbti kitus eismo dalyvius. Būtina sąmoningai suprasti – kelyje esi ne vienas, savitarpio pagarba ir atsargumas yra saugaus dalyvavimo eisme pagrindas.
+                  Lietuvos kelių policijos tarnyba informuoja, kad Kelių eismo taisyklių 5 punkte nurodyta: eismo dalyviai privalo išmanyti Lietuvos Respublikos saugaus eismo automobilių keliais įstatymą, mokėti Kelių eismo taisyklės ir jų laikytis.
+                </p>
+              </div>
+              <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button class="btn btn-outline-danger"><i class="fas fa-file-pdf"></i></button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Mikroautobusų nuoma
+    </div>
+    <!-- Default to the left -->
+    <div>Copyright &copy; 2020 opelnuoma.lt.</div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Ion Slider -->
+<script src="plugins/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+
+
+<script>
+    $(function () {
+      let disabledDays = ['2020-04-20','2020-04-21','2020-04-22','2020-04-23'];
+      let start, end, price, total, dist_price;
+      let distance = 0;
+      let days = 1;
+  
+        //Date range picker with time picker
+        $('#reservationtime').daterangepicker({
+            timePicker: true,
+            timePickerIncrement: 30,
+            timePicker24Hour: true,
+            locale: {
+              format: 'YYYY-MM-DD hh:mm A',
+              applyLabel: "Apply",
+              cancelLabel: "Cancel",
+              fromLabel: "Nuo",
+              toLabel: "Iki",
+              customRangeLabel: "Custom",
+              weekLabel: "W",
+              daysOfWeek: ["Sk", "Pr", "An", "Tr", "Ke", "Pn", "Št",],
+              monthNames: ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"],
+              firstDay: 1,
+            },
+            weekStart: 1,
+            minDate: moment(),
+            isInvalidDate: function (date) {
+                let formatted = date.format('YYYY-MM-DD');
+                return disabledDays.indexOf(formatted) > -1;
+            }
+
+        })
+        $('#reservationtime').on('apply.daterangepicker', function(ev, picker) {
+          // console.log(picker.startDate.format('YYYY-MM-DD'));
+          // console.log(picker.endDate.format('YYYY-MM-DD'));
+          days = Math.ceil((picker.endDate - picker.startDate) / (1000 * 60 * 60 * 24));
+          // console.log(days);
+          countprice();
+        });
+
+        $('#distance').change(function() {
+            countprice();
+        });
+
+          function countprice() { 
+              distance = Number($('#distance').val());
+              dist_price = Math.floor(distance/1000)*10;
+              price = Number($('#price').html());
+              total = days * price + dist_price;
+              console.log(days);
+              console.log(price);
+              console.log(total);
+              
+              console.log(dist_price);
+
+              let dayName;
+              if (days % 10 == 1 && days != 11) {
+                dayName = "diena"
+              } else {
+                if (days > 9 && days < 21 || days % 10 == 0) {
+                  dayName = "dienų"
+                } else {
+                  dayName = "dienos"
+                }
+              };
+
+              if (total>0) {
+                $('#total').html(`<h3 class='d-flex align-items-center bg-light p-3'>Viso: ${total}
+                    EUR</h3> ${days} ${dayName} po ${price} EUR/diena ir ${dist_price} EUR už kilometražą`);
+              } else {
+                $('#total').html("");
+              };
+              
+          };
+
+        $('#distance').ionRangeSlider({
+            min     : 0,
+            max     : 10000,
+            type    : 'single',
+            step    : 500,
+            postfix : ' km',
+            prettify: false,
+            hasGrid : true
+        })
+
+    })
+  </script>
+</body>
+</html>

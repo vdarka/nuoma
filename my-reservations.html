@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>AdminLTE 3 | Top Navigation</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- Ion Slider -->
+    <link rel="stylesheet" href="plugins/ion-rangeslider/css/ion.rangeSlider.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition layout-top-nav layout-footer-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container">
+      <a href="index3.html" class="navbar-brand">
+        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+             style="opacity: .8">
+        <span class="brand-text font-weight-light">opelnuoma.lt</span>
+      </a>
+      
+      <!-- <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Pagrindinis</a>
+        </li>
+        <li class="nav-item">
+          <a href="admin-reservation.html" class="nav-link">Admin</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Darius</a>
+          <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+            <li><a href="my-reservations.html" class="dropdown-item">Mano rezervacijos </a></li>
+            <li><a href="#" class="dropdown-item">Atsijungti</a></li>
+            <li class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark"> Opel ir Renault mikroautobusų nuoma <br><small>nuoma lengvai ir pigiai</small></h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Mano rezervacijos</h3>
+
+                <!-- <div class="card-tools">
+                  <div class="input-group input-group-sm" style="width: 150px;">
+                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Automobilis</th>
+                      <th>Rezervacijos laikotarpis</th>
+                      <th>Kilometražas</th>
+                      <th>Suma</th>
+                      <th>Patvirtinimas</th>
+                      <th>Sutartis</th>
+                      <th>Atšakimas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Renault Trafic (2017 m.)</td>
+                      <td>2020-03-23 01:51 PM - 2020-03-23 11:59 PM</td>
+                      <td>2000</td>
+                      <td>357 EUR</td>
+                      <td><span class="badge bg-success">Patvirtinta</span></td>
+                      <td><button class="btn btn-outline-danger"><i class="fas fa-file-pdf"></i></button></td>
+                      <td><button type="reset" class="btn btn-outline-danger"><i class="fas fa-times"></i> Atšaukti</button></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Renault Trafic (2017 m.)</td>
+                      <td>2020-03-23 01:51 PM - 2020-03-23 11:59 PM</td>
+                      <td>2000</td>
+                      <td>357 EUR</td>
+                      <td><span class="badge bg-success">Patvirtinta</span></td>
+                      <td><button class="btn btn-outline-danger"><i class="fas fa-file-pdf"></i></button></td>
+                      <td><button type="reset" class="btn btn-outline-danger"><i class="fas fa-times"></i> Atšaukti</button></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Renault Trafic (2017 m.)</td>
+                      <td>2020-03-23 01:51 PM - 2020-03-23 11:59 PM</td>
+                      <td>2000</td>
+                      <td>357 EUR</td>
+                      <td><span class="badge badge-secondary">Išsiųsta patvirtinimui</span></td>
+                      <td></td>
+                      <td><button type="reset" class="btn btn-outline-danger"><i class="fas fa-times"></i> Atšaukti</button></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Renault Trafic (2017 m.)</td>
+                      <td>2020-03-23 01:51 PM - 2020-03-23 11:59 PM</td>
+                      <td>2000</td>
+                      <td>357 EUR</td>
+                      <td><span class="badge bg-success">Patvirtinta</span></td>
+                      <td><button class="btn btn-outline-danger"><i class="fas fa-file-pdf"></i></button></td>
+                      <td><button type="reset" class="btn btn-outline-danger"><i class="fas fa-times"></i> Atšaukti</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+         
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-block">
+      Mikroautobusų nuoma
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2020 opelnuoma.lt.</strong>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Ion Slider -->
+<script src="plugins/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+
+
+<script>
+    $(function () {
+      let disabledDays = ['2020-04-20','2020-04-21','2020-04-22','2020-04-23'];
+      let start, end, price, total, dist_price;
+      let distance = 0;
+      let days = 1;
+  
+        //Date range picker with time picker
+        $('#reservationtime').daterangepicker({
+            timePicker: true,
+            timePickerIncrement: 30,
+            timePicker24Hour: true,
+            locale: {
+              format: 'YYYY-MM-DD hh:mm A',
+              applyLabel: "Apply",
+              cancelLabel: "Cancel",
+              fromLabel: "Nuo",
+              toLabel: "Iki",
+              customRangeLabel: "Custom",
+              weekLabel: "W",
+              daysOfWeek: ["Sk", "Pr", "An", "Tr", "Ke", "Pn", "Št",],
+              monthNames: ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"],
+              firstDay: 1,
+            },
+            weekStart: 1,
+            minDate: moment(),
+            isInvalidDate: function (date) {
+                let formatted = date.format('YYYY-MM-DD');
+                return disabledDays.indexOf(formatted) > -1;
+            }
+
+        })
+        $('#reservationtime').on('apply.daterangepicker', function(ev, picker) {
+          // console.log(picker.startDate.format('YYYY-MM-DD'));
+          // console.log(picker.endDate.format('YYYY-MM-DD'));
+          days = Math.ceil((picker.endDate - picker.startDate) / (1000 * 60 * 60 * 24));
+          // console.log(days);
+          countprice();
+        });
+
+        $('#distance').change(function() {
+            countprice();
+        });
+
+          function countprice() { 
+              distance = Number($('#distance').val());
+              dist_price = Math.floor(distance/1000)*10;
+              price = Number($('#price').html());
+              total = days * price + dist_price;
+              console.log(days);
+              console.log(price);
+              console.log(total);
+              
+              console.log(dist_price);
+
+              let dayName;
+              if (days % 10 == 1 && days != 11) {
+                dayName = "diena"
+              } else {
+                if (days > 9 && days < 21 || days % 10 == 0) {
+                  dayName = "dienų"
+                } else {
+                  dayName = "dienos"
+                }
+              };
+
+              if (total>0) {
+                $('#total').html(`<h3 class='d-flex align-items-center bg-light p-3'>Viso: ${total}
+                    EUR</h3> ${days} ${dayName} po ${price} EUR/diena ${dist_price} EUR už kilometražą`);
+              } else {
+                $('#total').html("");
+              };
+              
+          };
+        
+
+        // let start, end, price, total, dist_price;
+        // let distance = 0;
+        // let days = 0;
+        // let disabledDays = ['2020-03-20','2020-03-21','2020-03-22','2020-03-23'];
+        // let currDate = new Date();
+        
+        // $('#startdate').datetimepicker({
+        //     pickTime: false,
+        //     // format: 'YYYY/MM/DD hh:ii',
+        //     autoclose: true,
+        //     datesDisabled: disabledDays,
+        //     startDate : currDate
+        // }); 
+
+        // function setstartdate(start) {
+        //     $('#enddate').datetimepicker({        
+        //         pickTime: false,
+        //         autoclose: true,
+        //         datesDisabled: disabledDays,
+        //         startDate: start
+        //     });
+        // };
+
+        // $('.input-daterange').change(function(e) {
+        //     start = $('#startdate').datetimepicker().val();
+        //     setstartdate(start);
+        //     end   = $('#enddate').datetimepicker().val();
+        //     countprice();
+        // }),
+
+        $('#distance').ionRangeSlider({
+            min     : 0,
+            max     : 10000,
+            type    : 'single',
+            step    : 500,
+            postfix : ' km',
+            prettify: false,
+            hasGrid : true
+        })
+
+    })
+  </script>
+</body>
+</html>
